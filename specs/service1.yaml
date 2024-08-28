@@ -1,0 +1,28 @@
+openapi: 3.0.0
+info:
+  title: Hello World Service 1
+  version: 1.0.0
+  description: API for Hello World Service running on port 9090.
+
+servers:
+  - url: http://localhost:9090
+
+paths:
+  /service1:
+    get:
+      summary: Get Hello World message from Service 1
+      description: Returns a JSON object with a greeting message and the port number.
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  hello:
+                    type: string
+                    example: mock world 1
+                  port:
+                    type: integer
+                    example: 9090
