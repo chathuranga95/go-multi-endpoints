@@ -3,7 +3,7 @@ kind: ComponentConfig
 spec:
   inbound:
     - name: Service9090
-      networkVisibility: Public
+      networkVisibility: Project
       context: /
       port: 9090
       schemaFilePath: specs/service1.yaml
