@@ -10,7 +10,7 @@ servers:
 paths:
   /service1:
     get:
-      summary: Get Hello World message from Service 1 - mock update
+      summary: Get Hello World message from Service 1
       description: Returns a JSON object with a greeting message and the port number.
       responses:
         '200':
