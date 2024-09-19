@@ -6,11 +6,11 @@ spec:
       networkVisibility: Project
       context: /
       port: 9090
-      schemaFilePath: specs/service1.yaml
+      schemaFilePath: specs1/service1.yaml
       type: REST
     - name: Service9091
       networkVisibility: Public
       context: /
       port: 9091
-      schemaFilePath: specs/service2.yaml
+      schemaFilePath: specs2/service2.yaml
       type: REST
