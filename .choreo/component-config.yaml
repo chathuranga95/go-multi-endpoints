@@ -2,13 +2,13 @@ apiVersion: core.choreo.dev/v1beta1
 kind: ComponentConfig
 spec:
   inbound:
-    - name: Service9090
-      networkVisibility: Project
+    - name: SVC1
+      networkVisibility: Public
       context: /
       port: 9090
       schemaFilePath: specs/service1.yaml
       type: REST
-    - name: Service9091
+    - name: SVC2
       networkVisibility: Public
       context: /svc2
       port: 9090

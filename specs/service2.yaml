@@ -25,4 +25,4 @@ paths:
                     example: mock world 2
                   port:
                     type: integer
-                    example: 9091
+                    example: 9090
