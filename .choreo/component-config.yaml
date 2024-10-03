@@ -10,7 +10,7 @@ spec:
       type: REST
     - name: Service9091
       networkVisibility: Public
-      context: /
-      port: 9091
+      context: /svc2
+      port: 9090
       schemaFilePath: specs/service2.yaml
       type: REST
