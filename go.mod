@@ -1,3 +1,3 @@
 module multi-ep
 
-go 1.21.11
+go 1.22.4
