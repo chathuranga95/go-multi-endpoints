@@ -15,9 +15,8 @@ paths:
       responses:
         '200':
           description: >-
-            Successful response
-            dsadsad dsadas d asd asd
-            dasdasjhg djdhgajsd  sdajshdg
+            Elimina el recurso del tipo Orders identified by the alternative
+            identifier the attribute 'orderDateTime' of the resource.
           content:
             application/json:
               schema:
