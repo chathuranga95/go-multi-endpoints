@@ -8,15 +8,4 @@ endpoints:
    type: REST
    networkVisibilities: 
     - Public
-    - Project
    schemaFilePath: specs/service1.yaml
- - name: service2
-   displayName: service2
-   service:
-     basePath: /service2
-     port: 9090
-   type: REST
-   networkVisibilities: 
-    - Public
-    - Project
-   schemaFilePath: specs/service2.yaml
