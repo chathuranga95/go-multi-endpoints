@@ -7,11 +7,23 @@ info:
 servers:
   - url: http://localhost:9090
 
+components:
+  securitySchemes:
+    ivuser:
+      type: apiKey
+      in: header
+      name: iv-user
+
+security:
+  - ivuser: []
+
 paths:
   /service1:
     get:
       summary: Get Hello World message from Service 1 - mock update
       description: Returns a JSON object with a greeting message and the port number.
+      security:
+        - ivuser: []
       responses:
         '200':
           description: Successful response
